@@ -51,3 +51,11 @@ var postorderTraversal = function(root) {
     return result;
 }
 ```
+
+- [1,null,2,3]
+- 模拟运行
+- 1
+- 1,null,2
+- 1,null,2,null,3
+- 1,null,2,null,3,null
+- 3,2,1
